@@ -16,8 +16,9 @@ git clone --recursive https://github.com/erik-smit/sony-camera-api.git sony-came
 # Cloning into 'sony-camera-api'...
 ...
 cd sony-camera-api/
-. resty/resty http://10.0.0.1:10000
-# http://10.0.0.1:10000*
+
+. resty/resty http://192.168.122.1
+
 ./camera.sh getAvailableCameraFunction
 # /id=1
 # /error/0=403
